@@ -14,6 +14,11 @@ modern-nextjs-portfolio is a sleek, responsive, and fully customizable portfolio
 - Lightweight and Fast: Designed with performance in mind using modern web standards.
 
 
+## Prview of FIGMA File
+
+![Prview of FIGMA File](https://raw.githubusercontent.com/irfansadiq030/modern-nextjs-portfolio/main/public/preview.png)
+
+
 ## Installation
 
 Install modern-nextjs-portfolio with npm
