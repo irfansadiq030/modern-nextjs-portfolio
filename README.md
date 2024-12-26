@@ -1,42 +1,40 @@
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
 
-# modern-nextjs-portfolio
+## Getting Started
 
-modern-nextjs-portfolio is a sleek, responsive, and fully customizable portfolio website template built with Next.js. This open-source project is perfect for developers, designers, and creatives looking to showcase their work in a modern and professional way.
-
-
-## Features
-
-- Responsive Design: Looks stunning on any device, from desktops to smartphones.
-- Powered by Next.js: Utilizes the latest features like server-side rendering (SSR) and static site generation (SSG) for optimal performance.
-- Customizable: Easily tweak styles, layouts, and content to reflect your personal brand.
-- SEO Friendly: Preconfigured SEO optimizations to boost your portfolio’s visibility.
-- Project Highlights: Dedicated sections for showcasing projects, skills, blogs, and more.
-- Lightweight and Fast: Designed with performance in mind using modern web standards.
-
-
-## Installation
-
-Install modern-nextjs-portfolio with npm
+First, run the development server:
 
 ```bash
-
-  cd modern-nextjs-portfolio
-  npm install
-  npm run dev
-  
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
 ```
-    
-## Get Involved
 
-We’re excited to build this template with the open-source community! If you’d like to contribute, please read our Contribution Guidelines. Issues, feature requests, and pull requests are always welcome.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
+You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-## Support
+[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
 
-For support, email irfannsadiq@gmail.com 
+The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
 
+This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## License
+## Learn More
 
-[MIT](https://choosealicense.com/licenses/mit/)
+To learn more about Next.js, take a look at the following resources:
 
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
