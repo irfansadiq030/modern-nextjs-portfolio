@@ -19,6 +19,11 @@ modern-nextjs-portfolio is a sleek, responsive, and fully customizable portfolio
 ![Prview of FIGMA File](https://raw.githubusercontent.com/irfansadiq030/modern-nextjs-portfolio/main/public/preview.png)
 
 
+## Tech Stack
+
+**Client:** React, Redux, TailwindCSS
+
+
 ## Installation
 
 Install modern-nextjs-portfolio with npm
