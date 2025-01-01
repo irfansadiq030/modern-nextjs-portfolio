@@ -8,8 +8,11 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        primary: "#121212",
+        secondary: "#58FF81",
+      },
+      fontFamily: {
+        sans: ["var(--font-poppins)", "sans-serif"], // Use the CSS variable
       },
     },
   },
