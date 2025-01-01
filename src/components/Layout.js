@@ -18,7 +18,7 @@ const Layout = ({ children }) => {
       <Header />
 
       {/* Main content takes up available space */}
-      <main className="flex-grow container mx-auto">{children}</main>
+      <main className="flex-grow">{children}</main>
 
       {/* Footer always at the bottom */}
       <Footer />

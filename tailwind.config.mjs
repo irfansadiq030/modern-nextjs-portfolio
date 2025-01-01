@@ -10,6 +10,7 @@ export default {
       colors: {
         primary: "#121212",
         secondary: "#58FF81",
+        accent: "#412DFF",
       },
       fontFamily: {
         sans: ["var(--font-poppins)", "sans-serif"], // Use the CSS variable

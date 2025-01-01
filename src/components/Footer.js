@@ -10,7 +10,7 @@ const Footer = () => {
           href="/"
           class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0"
         >
-          <Image src="/logo.svg" width={100} height={50} alt="logo" />
+          <Image src="/logo.svg" width={130} height={50} alt="logo" />
         </Link>
         <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">
           © 2020 Tailblocks —
