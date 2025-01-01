@@ -12,7 +12,7 @@ const poppins = Poppins({
 const Layout = ({ children }) => {
   return (
     <div
-      className={`flex flex-col min-h-screen ${poppins.className} bg-primary `}
+      className={`flex w-full flex-col min-h-screen ${poppins.className} bg-primary `}
     >
       {/* Header always at the top */}
       <Header />
