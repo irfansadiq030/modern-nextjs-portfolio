@@ -11,9 +11,11 @@ export default {
         primary: "#121212",
         secondary: "#58FF81",
         accent: "#412DFF",
+        charcoal: "#202020",
+        silver: "#BABABA",
       },
       fontFamily: {
-        sans: ["var(--font-poppins)", "sans-serif"], // Use the CSS variable
+        sans: ["var(--font-red-hat-text)", "sans-serif"], // Use the CSS variable
       },
     },
   },
