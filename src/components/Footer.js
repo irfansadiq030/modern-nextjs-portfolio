@@ -11,26 +11,26 @@ import {
 const Footer = () => {
   return (
     <footer className="bg-charcoal pt-16  rounded-t-[40] body-font">
-      <div className="container pb-10 mx-auto flex items-center justify-center flex-col bg-[url('/circle-rings.png')] bg-contain bg-no-repeat bg-center">
-        <h3 className="capitalize text-white text-3xl font-medium mb-5">
+      <div className="container pb-10 mx-auto flex items-center justify-center flex-col bg-[url('/circle-rings.png')] bg-contain bg-no-repeat bg-bottom">
+        <h3 className="capitalize text-white text-3xl font-medium mb-6">
           Get in Touch with me
         </h3>
         <span className="w-40 h-[2] bg-secondary"></span>
         <Link
           href="/"
-          className="text-silver text-xl font-light flex items-center justify-center mt-5"
+          className="text-silver text-center text-xl font-light flex items-center justify-center mt-10"
         >
           14/345 Grand Aston, Sydney, Australia
         </Link>
         <Link
           href="/"
-          className="text-silver text-xl font-light flex items-center justify-center mt-5"
+          className="text-silver text-xl font-light flex items-center justify-center mt-3"
         >
           hello@irfansadiq.pk
         </Link>
         <Link
           href="/"
-          className="text-silver text-xl font-light flex items-center justify-center mt-5"
+          className="text-silver text-xl font-light flex items-center justify-center mt-3"
         >
           +92 3087884179
         </Link>
