@@ -10,7 +10,7 @@ import {
 
 const Footer = () => {
   return (
-    <footer className="bg-charcoal pt-16  rounded-t-[40] body-font">
+    <footer className="bg-charcoal pt-16  rounded-t-[40px] body-font">
       <div className="container pb-10 mx-auto flex items-center justify-center flex-col bg-[url('/circle-rings.png')] bg-contain bg-no-repeat bg-bottom">
         <h3 className="capitalize text-white text-3xl font-medium mb-6">
           Get in Touch with me

@@ -6,7 +6,7 @@ import { IoDocumentTextOutline } from "react-icons/io5";
 
 const PortfolioCard = () => {
   return (
-    <article className="bg-charcoal rounded-[20] overflow-hidden text-start">
+    <article className="bg-charcoal rounded-[20px] overflow-hidden text-start">
       <Image
         src="https://picsum.photos/1200/600"
         width={500}

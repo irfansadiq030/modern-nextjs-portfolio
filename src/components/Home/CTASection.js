@@ -6,7 +6,7 @@ import Image from "next/image";
 const CTASection = () => {
   return (
     <section className="mt-24 mb-24 px-5 xl:px-0 container mx-auto min-h-[200px] w-full  text-white">
-      <div className="h-[350] lg:h-[350] xl:h-[400] bg-accent bg-[url('/white-lines.png')] bg-cover bg-no-repeat bg-center container mx-auto rounded-[20px] flex flex-col justify-center items-center text-center relative">
+      <div className="h-[350px] lg:h-[350px] xl:h-[400px] bg-accent bg-[url('/white-lines.png')] bg-cover bg-no-repeat bg-center container mx-auto rounded-[20px] flex flex-col justify-center items-center text-center relative">
         <Image
           src={"/white-sparkle.svg"}
           width={70}

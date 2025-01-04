@@ -46,7 +46,7 @@ const Header = () => {
             Contact
           </Link>
         </nav>
-        <button className="inline-flex uppercase font-medium items-center bg-accent text-white border-0 py-2 px-5 focus:outline-none rounded-[5] text-base mt-4 md:mt-0">
+        <button className="inline-flex uppercase font-medium items-center bg-accent text-white border-0 py-2 px-5 focus:outline-none rounded-[5px] text-base mt-4 md:mt-0">
           Hire me
           <span className="ml-2 ">
             <FiSend size={19} />

@@ -39,9 +39,9 @@ const HeroSection = () => {
           />
         </div>
         <div className=" flex flex-col md:justify-start justify-end md:items-end items-center mt-5 relative">
-          <div className="rounded-full w-[350] h-[350] md:w-[350] md:h-[350] lg:w-[450] lg:h-[450] xl:w-[500] xl:h-[500] bg-charcoal"></div>
+          <div className="rounded-full w-[350px] h-[350px] md:w-[350px] md:h-[350px] lg:w-[450px] lg:h-[450px] xl:w-[500px] xl:h-[500px] bg-charcoal"></div>
           <Image
-            className="absolute -bottom-5 md:bottom-0 md:left-15 w-[400] h-[400] md:w-[450] md:h-[450] xl:w-[500] xl:h-[500] object-cover "
+            className="absolute -bottom-5 md:bottom-0 md:left-15 w-[400px] h-[400px] md:w-[450px] md:h-[450px] xl:w-[500px] xl:h-[500px] object-cover "
             src="/irfans-dp.png"
             width={550}
             height={550}

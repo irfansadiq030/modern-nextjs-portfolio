@@ -8,7 +8,7 @@ const Button = ({ btnText, bgColor, Icon = null, href = "/", className = "", typ
         type={type}
         className={`${
           bgColor ? "bg-accent" : "bg-transparent"
-        } rounded-[5] inline-flex items-center uppercase ${className}`}
+        } rounded-[5px] inline-flex items-center uppercase ${className}`}
         {...props}
       >
         {iconPosition === "left" && Icon && (
