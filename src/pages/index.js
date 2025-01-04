@@ -1,9 +1,10 @@
-import Head from 'next/head';
+import Head from "next/head";
 import CTASection from "@/components/Home/CTASection";
 import HeroSection from "@/components/Home/HeroSection";
 import Portfolio from "@/components/Home/Portfolio";
 import Services from "@/components/Home/Services";
 import StatsSection from "@/components/Home/StatsSection";
+import AboutSection from "@/components/Home/AboutSection";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
       <HeroSection />
       <StatsSection />
       <Services />
+      <AboutSection />
       <Portfolio />
       <CTASection />
     </>
