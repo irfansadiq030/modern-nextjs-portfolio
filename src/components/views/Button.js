@@ -1,18 +1,27 @@
 import Link from "next/link";
 import React from "react";
 
-const Button = ({ btnText, bgColor, Icon }) => {
+const Button = ({ btnText, bgColor, Icon = null, href = "/", className = "", type = "button", iconPosition = "left", ...props }) => {
   return (
-    <Link href="/">
+    <Link href={href}>
       <button
+        type={type}
         className={`${
           bgColor ? "bg-accent" : "bg-transparent"
-        } px-10 py-3 rounded-[5] text-xl inline-flex items-center uppercase `}
+        } rounded-[5] inline-flex items-center uppercase ${className}`}
+        {...props}
       >
-        <span className="mr-2">
-          <Icon size={20} />
-        </span>
+        {iconPosition === "left" && Icon && (
+          <span className="mr-2">
+            <Icon size={20} />
+          </span>
+        )}
         {btnText}
+        {iconPosition === "right" && Icon && (
+          <span className="ml-2">
+            <Icon size={20} />
+          </span>
+        )}
       </button>
     </Link>
   );

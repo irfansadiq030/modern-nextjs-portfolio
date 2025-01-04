@@ -35,13 +35,22 @@ const Footer = () => {
           +92 3087884179
         </Link>
         <div className="flex my-10 justify-between">
-          <Link href="/" className="mr-4 text-secondary hover:text-white">
+          <Link
+            href="https://www.facebook.com/Irfannsadiq/"
+            className="mr-4 text-secondary hover:text-white"
+          >
             <RiFacebookCircleFill size={30} />
           </Link>
-          <Link href="/" className="mr-4 text-secondary hover:text-white">
+          <Link
+            href="https://www.instagram.com/irfannsadiq"
+            className="mr-4 text-secondary hover:text-white"
+          >
             <RiInstagramFill size={30} />
           </Link>
-          <Link href="/" className="mr-4 text-secondary hover:text-white">
+          <Link
+            href="https://www.linkedin.com/in/irfan-sadiq"
+            className="mr-4 text-secondary hover:text-white"
+          >
             <RiLinkedinBoxFill size={30} />
           </Link>
         </div>
