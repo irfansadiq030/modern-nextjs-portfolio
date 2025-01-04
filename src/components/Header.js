@@ -12,7 +12,13 @@ const Header = () => {
           href="/"
           className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0"
         >
-          <Image src="/logo.svg" width={130} height={50} alt="logo" />
+          <Image
+            src="/logo.svg"
+            width={130}
+            height={130}
+            className="w-[130] h-[130]"
+            alt="logo"
+          />
         </Link>
         <nav className="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
           <Link
@@ -27,10 +33,16 @@ const Header = () => {
           >
             About
           </Link>
-          <Link href="/services" className="mr-9 text-white hover:text-secondary">
+          <Link
+            href="/services"
+            className="mr-9 text-white hover:text-secondary"
+          >
             Services
           </Link>
-          <Link href="/contact" className="mr-9 text-white hover:text-secondary">
+          <Link
+            href="/contact"
+            className="mr-0 text-white hover:text-secondary"
+          >
             Contact
           </Link>
         </nav>

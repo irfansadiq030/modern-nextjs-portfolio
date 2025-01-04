@@ -18,23 +18,23 @@ const Footer = () => {
         <span className="w-40 h-[2] bg-secondary"></span>
         <Link
           href="/"
-          className="text-silver text-center text-xl font-light flex items-center justify-center mt-10"
+          className="text-silver text-center text-lg xl:text-xl font-light flex items-center justify-center mt-10"
         >
           14/345 Grand Aston, Sydney, Australia
         </Link>
         <Link
           href="/"
-          className="text-silver text-xl font-light flex items-center justify-center mt-3"
+          className="text-silver text-lg xl:text-xl font-light flex items-center justify-center mt-2"
         >
           hello@irfansadiq.pk
         </Link>
         <Link
           href="/"
-          className="text-silver text-xl font-light flex items-center justify-center mt-3"
+          className="text-silver text-lg xl:text-xl font-light flex items-center justify-center mt-2"
         >
           +92 3087884179
         </Link>
-        <div className="flex my-10 justify-between">
+        <div className="flex my-5 justify-between">
           <Link
             href="https://www.facebook.com/Irfannsadiq/"
             className="mr-4 text-secondary hover:text-white"
@@ -54,9 +54,9 @@ const Footer = () => {
             <RiLinkedinBoxFill size={30} />
           </Link>
         </div>
-        <p className="flex flex-wrap text-silver font-light">
+        <p className="flex flex-wrap text-sm text-silver font-light">
           Designed with
-          <span className="text-red-600 mx-1">
+          <span className="text-white mx-1">
             <RiHeartFill size={18} />
           </span>
           by irfan sadiq
