@@ -4,6 +4,7 @@ import Button from "../views/Button";
 import Image from "next/image";
 import { FaArrowRightLong } from "react-icons/fa6";
 import { IoCheckmarkCircle } from "react-icons/io5";
+import { MdBusinessCenter } from "react-icons/md";
 
 const AboutSection = () => {
   return (
@@ -12,17 +13,24 @@ const AboutSection = () => {
         <div className="flex flex-col items-center md:items-start justify-center relative">
           <div className="rounded-full w-[350px] h-[350px] md:w-[350px] md:h-[350px] lg:w-[400px] lg:h-[400px] bg-accent"></div>
           <Image
-            className="absolute w-[350px] h-[350px] md:w-[400px] md:h-[400px] lg:w-[400px] lg:h-[400px] xl:w-[400px] xl:h-[400px] 2xl:w-[450px] 2xl:h-[450px] object-cover md:left-0 lg:left-5 xl:left-16 2xl:left-40"
+            className="absolute w-[350px] h-[350px] md:w-[400px] md:h-[400px] lg:w-[400px] lg:h-[400px] xl:w-[400px] xl:h-[400px] 2xl:w-[450px] 2xl:h-[450px] object-cover md:left-0 lg:left-5 xl:left-1 2xl:-left-5"
             src="/irfans-dp.png"
             width={550}
             height={550}
             alt="irfan sadiq profile picture "
           />
-          <div className="h-[50px] w-[130px] absolute -left-4 top-24 bg-[#8175F2] rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-75 flex items-center ">
-            <IoCheckmarkCircle className="text-[30px] mr-1"/>
+          <div className="h-[50px] w-[130px] absolute -left-4 top-24 md:top-56 lg:top-36 bg-[#8175F2] rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-75 flex items-center shadow-md">
+            <IoCheckmarkCircle className="text-[30px] mr-1" />
             <div>
-                <h4 className="text-sm font-semibold">99%</h4>
-                <p className="text-xs font-light">Satisfied User</p>
+              <h4 className="text-sm font-semibold">99%</h4>
+              <p className="text-xs font-light">Satisfied User</p>
+            </div>
+          </div>
+          <div className="h-[50px] w-[130px] absolute right-0 bottom-12 md:bottom-44 lg:bottom-28 lg:right-12 xl:right-48 2xl:right-80 2xl:bottom-20 bg-[#787878] rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-75 flex items-center shadow-md">
+            <IoCheckmarkCircle className="text-[30px] mr-1" />
+            <div>
+              <h4 className="text-sm font-semibold">100%</h4>
+              <p className="text-xs font-light">Top Rated</p>
             </div>
           </div>
         </div>
