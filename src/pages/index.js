@@ -10,7 +10,9 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Irfan Sadiq - Full Stack Developer</title>
+        <title>
+          Irfan Sadiq | Full Stack Developer | Expert in WordPress, ReactJS, PHP & Laravel
+        </title>
         <meta
           name="description"
           content="Irfan Sadiq, Full Stack Developer with 5+ years' experience in WordPress, React, PHP, Laravel & more. Offering expert services on Fiverr & Upwork."

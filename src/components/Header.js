@@ -33,12 +33,12 @@ const Header = () => {
           >
             About
           </Link>
-          <Link
+          {/* <Link
             href="/services"
             className="mr-9 text-white hover:text-secondary"
           >
             Services
-          </Link>
+          </Link> */}
           <Link
             href="/contact"
             className="mr-0 text-white hover:text-secondary"

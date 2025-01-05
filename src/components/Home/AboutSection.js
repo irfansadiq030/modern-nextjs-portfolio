@@ -4,7 +4,6 @@ import Button from "../views/Button";
 import Image from "next/image";
 import { FaArrowRightLong } from "react-icons/fa6";
 import { IoCheckmarkCircle } from "react-icons/io5";
-import { MdBusinessCenter } from "react-icons/md";
 
 const AboutSection = () => {
   return (
