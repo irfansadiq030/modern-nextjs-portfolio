@@ -6,8 +6,8 @@ import { FiSend } from "react-icons/fi";
 
 const Header = () => {
   return (
-    <header className="text-gray-600 font-poppins">
-      <div className="container mx-auto flex flex-wrap py-5 flex-col md:flex-row items-center">
+    <header className="text-gray-600 font-poppins hidden md:block">
+      <div className="container mx-auto flex flex-wrap px-5 xl:px-0 flex-col md:flex-row items-center">
         <Link
           href="/"
           className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0"

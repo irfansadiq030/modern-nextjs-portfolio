@@ -1,6 +1,7 @@
 import Header from "./Header";
 import Footer from "./Footer";
 import { Poppins } from "next/font/google";
+import MobileHeader from "./MobileHeader";
 
 // Configure the font
 const poppins = Poppins({
@@ -16,6 +17,7 @@ const Layout = ({ children }) => {
     >
       {/* Header always at the top */}
       <Header />
+      <MobileHeader />
 
       {/* Main content takes up available space */}
       <main className="flex-grow">{children}</main>

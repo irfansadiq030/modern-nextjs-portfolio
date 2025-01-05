@@ -8,7 +8,7 @@ import SectionTitle from "../views/SectionTitle";
 const HeroSection = () => {
   return (
     <section className="bg-[url('/lines-bg.png')] bg-contain bg-no-repeat bg-center md:min-h-[55vh] lg:min-h-[70vh] xl:min-h-[50vh] w-full">
-      <div className="grid grid-cols-1 md:grid-cols-2 grid-rows-1 container items-top mx-auto h-full px-5 xl:px-0 md:pt-20">
+      <div className="grid grid-cols-1 md:grid-cols-2 grid-rows-1 container items-top mx-auto h-full px-5 xl:px-0 pt-10 md:pt-14">
         <div className="text-white">
           <SectionTitle title="irfan Sadiq" />
           <h1 className="w-full text-3xl md:text-5xl lg:text-6xl font-bold loading-relaxed">
