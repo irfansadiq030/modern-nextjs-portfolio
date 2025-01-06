@@ -2,6 +2,8 @@ import React from "react";
 import Head from "next/head";
 import AboutSection from "@/components/Home/AboutSection";
 import PageHeader from "@/components/PageHeader";
+import InfoCard from "@/components/Contact/InfoCard";
+import ContactForm from "@/components/Contact/ContactForm";
 
 const contact = () => {
   return (
@@ -24,7 +26,10 @@ const contact = () => {
         mainHeading="Contact Me Today"
         subHeading="Let’s Build Something Great Together"
       />
-      <section className="mb-24"></section>
+      <section className="mb-24 container mx-auto grid grid-cols-1 md:grid-cols-2 gap-5 px-5 xl:px-0">
+        <InfoCard />
+        <ContactForm />
+      </section>
     </>
   );
 };
