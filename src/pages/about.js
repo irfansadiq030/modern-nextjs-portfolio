@@ -1,6 +1,6 @@
 import React from "react";
 import Head from "next/head";
-import AboutSection from "@/components/Home/AboutSection";
+import About from "@/components/About/About";
 import PageHeader from "@/components/PageHeader";
 
 const about = () => {
@@ -20,8 +20,13 @@ const about = () => {
           content="Full Stack Developer, WordPress Expert, ReactJS Developer, PHP Developer, Laravel Developer, Web Development Services, Fiverr Level 2 Seller, Upwork Freelancer"
         />
       </Head>
-      <PageHeader introText="About" mainHeading="Meet Irfan Sadiq" subHeading="Your Full Stack development partner" />
-      <AboutSection />
+      <PageHeader
+        className="bg-primary"
+        introText="About"
+        mainHeading="Meet Irfan Sadiq"
+        subHeading="Your Full Stack development partner"
+      />
+      <About />
       <section className="mb-24"></section>
     </>
   );
