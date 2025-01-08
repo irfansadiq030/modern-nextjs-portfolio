@@ -22,8 +22,10 @@ const InfoCard = () => {
         Get in Touch
       </h1>
       <p className="text-white font-light mt-3 w-9/12">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus,
-        luctus nec ullamcorper mattis, pulvinar dapibus leo.
+        Have a web development project or need expert advice? Reach out to Irfan
+        Sadiq, a professional Full Stack Developer with 5+ years of experience
+        in creating high-quality websites and applications. Let&apos;s bring your
+        digital ideas to life.
       </p>
       <div className="flex items-center mt-10 text-white">
         <span
@@ -32,7 +34,9 @@ const InfoCard = () => {
         >
           <IoHome className="text-primary text-[30px]" />
         </span>
-        <h3 className="text-">DHA Phase 5, 14th Street Lahore, PK</h3>
+        <h3 className="text-white">
+          DHA Phase 5, 14th Street Lahore, Pakistan
+        </h3>
       </div>
       <div className="flex items-center mt-6 text-white">
         <span
@@ -41,7 +45,7 @@ const InfoCard = () => {
         >
           <FaPhone className="text-primary text-[26px]" />
         </span>
-        <h3>+92 3087884179</h3>
+        <h3 className="text-white">+92 308 788 4179</h3>
       </div>
       <div className="flex items-center mt-6 text-white">
         <span
@@ -50,12 +54,15 @@ const InfoCard = () => {
         >
           <FaEnvelope className="text-primary text-[27px]" />
         </span>
-        <h3>hello@irfansadiq.pk</h3>
+        <h3 className="text-white">hello@irfansadiq.pk</h3>
       </div>
-      <h2 className="mt-10 text-3xl text-white font-medium">Follow Me</h2>
+      <h2 className="mt-10 text-3xl text-white font-medium">
+        Follow Me on Social Media
+      </h2>
       <p className="text-white font-light mt-3 w-9/12">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus,
-        luctus nec ullamcorper mattis, pulvinar dapibus leo.
+        Stay connected with me on social media for the latest updates on my web
+        development projects and services. Follow my journey and get tips,
+        insights, and more!
       </p>
       <div className="flex items-center my-3">
         <Link

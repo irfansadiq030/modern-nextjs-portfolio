@@ -4,9 +4,14 @@ import Image from "next/image";
 import {
   RiFacebookCircleFill,
   RiLinkedinBoxFill,
-  RiInstagramFill,
+  RiInstagramLine,
   RiHeartFill,
+  RiGithubLine,
 } from "react-icons/ri";
+import { TiSocialFacebook, TiSocialLinkedin } from "react-icons/ti";
+import { FiInstagram } from "react-icons/fi";
+import { TbBrandFiverr } from "react-icons/tb";
+import { FaUpwork } from "react-icons/fa6";
 
 const Footer = () => {
   return (
@@ -23,13 +28,13 @@ const Footer = () => {
           14/345 Grand Aston, Sydney, Australia
         </Link>
         <Link
-          href="/"
+          href="mailto:hello@irfansadiq.pk"
           className="text-silver text-lg xl:text-xl font-light flex items-center justify-center mt-2"
         >
           hello@irfansadiq.pk
         </Link>
         <Link
-          href="/"
+          href="tel:00923087884179"
           className="text-silver text-lg xl:text-xl font-light flex items-center justify-center mt-2"
         >
           +92 3087884179
@@ -37,21 +42,33 @@ const Footer = () => {
         <div className="flex my-5 justify-between">
           <Link
             href="https://www.facebook.com/Irfannsadiq/"
-            className="mr-4 text-secondary hover:text-white"
+            className="mr-5 text-secondary hover:text-white"
           >
-            <RiFacebookCircleFill size={30} />
-          </Link>
-          <Link
-            href="https://www.instagram.com/irfannsadiq"
-            className="mr-4 text-secondary hover:text-white"
-          >
-            <RiInstagramFill size={30} />
+            <TiSocialFacebook size={30} />
           </Link>
           <Link
             href="https://www.linkedin.com/in/irfan-sadiq"
-            className="mr-4 text-secondary hover:text-white"
+            className="mr-5 text-secondary hover:text-white"
           >
-            <RiLinkedinBoxFill size={30} />
+            <TiSocialLinkedin size={30} />
+          </Link>
+          <Link
+            href="https://github.com/irfansadiq030"
+            className="mr-5 text-secondary hover:text-white"
+          >
+            <RiGithubLine size={25} />
+          </Link>
+          <Link
+            href="https://www.fiverr.com/users/irfan_sadiq786"
+            className="mr-5 text-secondary hover:text-white"
+          >
+            <TbBrandFiverr size={25} />
+          </Link>
+          <Link
+            href="https://upwork.com/freelancers/muhammadirfan93"
+            className="mr-3 text-secondary hover:text-white"
+          >
+            <FaUpwork size={25} />
           </Link>
         </div>
         <p className="flex flex-wrap text-sm text-silver font-light">

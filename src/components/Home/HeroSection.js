@@ -10,7 +10,7 @@ const HeroSection = () => {
     <section className="bg-[url('/lines-bg.png')] bg-contain bg-no-repeat bg-center md:min-h-[55vh] lg:min-h-[70vh] xl:min-h-[50vh] w-full">
       <div className="grid grid-cols-1 md:grid-cols-2 grid-rows-1 container items-top mx-auto h-full px-5 xl:px-0 pt-10 md:pt-14">
         <div className="text-white">
-          <SectionTitle title="irfan Sadiq" />
+          <SectionTitle title="Intro" />
           <h1 className="w-full text-3xl md:text-5xl lg:text-6xl font-bold loading-relaxed">
             Hello👋,
           </h1>
@@ -21,11 +21,13 @@ const HeroSection = () => {
             Full Stack developer
             <span className="text-secondary">.</span>
           </h2>
-          <p className="w-full md:w-12/12 lg:w-11/12 my-5 lg:my-6">
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium doloremque laudantium.
+          <p className="w-full md:w-12/12 lg:w-11/12 xl:w-10/12 my-5 lg:my-6">
+            Your go-to developer for all things web! I’m Irfan Sadiq, with
+            expertise in WordPress, ReactJS, and Laravel. Let’s turn your ideas
+            into exceptional digital products.
           </p>
           <Button
+            href="/contact"
             bgColor={true}
             btnText="Hire me"
             Icon={LuMail}

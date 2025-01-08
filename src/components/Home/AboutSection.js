@@ -38,9 +38,13 @@ const AboutSection = () => {
           <h2 className="font-medium mt-2 text-4xl text-center">
             Who is Irfan Sadiq?
           </h2>
-          <p className="text-center md:text-left w-full md:w-12/12 lg:w-9/12 font-light mt-3">
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium doloremque laudantium.
+          <p className="text-center md:text-left w-full md:w-12/12 font-light mt-3">
+            Hi, I’m Irfan Sadiq – a Full Stack Developer with over 5 years of
+            experience in creating custom websites and applications. I’ve worked
+            with a variety of technologies, from WordPress to ReactJS, PHP, and
+            Laravel. My goal is to deliver scalable, user-friendly solutions
+            that bring your ideas to life. Let&apos;s work together to create
+            something amazing!
           </p>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mt-6">
             <article className="flex items-center">
