@@ -21,7 +21,7 @@ const InfoCard = () => {
       <h1 className="text-3xl text-white font-medium">
         Get in Touch
       </h1>
-      <p className="text-white font-light mt-3 w-9/12">
+      <p className="text-white font-light mt-3 w-full md:w-9/12">
         Have a web development project or need expert advice? Reach out to Irfan
         Sadiq, a professional Full Stack Developer with 5+ years of experience
         in creating high-quality websites and applications. Let&apos;s bring your
@@ -59,7 +59,7 @@ const InfoCard = () => {
       <h2 className="mt-10 text-3xl text-white font-medium">
         Follow Me on Social Media
       </h2>
-      <p className="text-white font-light mt-3 w-9/12">
+      <p className="text-white font-light mt-3 w-full md:w-9/12">
         Stay connected with me on social media for the latest updates on my web
         development projects and services. Follow my journey and get tips,
         insights, and more!

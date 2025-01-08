@@ -41,7 +41,7 @@ const ContactForm = () => {
       <h1 className="text-3xl text-white font-medium">
         Have Questions? Let’s Connect!
       </h1>
-      <p className="text-white font-light mt-3 w-9/12">
+      <p className="text-white font-light mt-3 w-full md:w-9/12">
         I’m here to help! Whether you have questions about my services or want
         to discuss your next project, feel free to reach out. I’ll get back to
         you promptly!

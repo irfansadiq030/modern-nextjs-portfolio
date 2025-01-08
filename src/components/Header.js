@@ -19,7 +19,7 @@ const Header = () => {
             className="w-[130px] h-[30px]"
             alt="logo"
           /> */}
-          <span>&lt;IrfanSadiQ&gt;</span>
+          <span>&lt;IrfanSadiq&gt;</span>
         </Link>
         <nav className="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
           <Link
