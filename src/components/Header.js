@@ -3,8 +3,16 @@ import Image from "next/image";
 import Link from "next/link";
 
 import { FiSend } from "react-icons/fi";
+import { useRouter } from "next/router";
+
+// ** Utils imports
+import { getLinkClass } from "@/utils/linkUtils";
 
 const Header = () => {
+
+  // ** Hooks
+  const router = useRouter();
+  const currentPath = router.pathname;
   return (
     <header className="text-gray-600 font-poppins hidden md:block">
       <div className="container mx-auto flex flex-wrap px-5 pt-10 xl:px-0 flex-col md:flex-row items-center">
@@ -24,25 +32,28 @@ const Header = () => {
         <nav className="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
           <Link
             href="/"
-            className="mr-9 text-secondary hover:text-secondary active:text-secondary"
+            className={`${getLinkClass(
+              "/",
+              currentPath
+            )} mr-9 text-secondary hover:text-secondary active:text-secondary`}
           >
             Home
           </Link>
           <Link
             href="/about"
-            className="mr-9 text-white hover:text-secondary active:text-secondary"
+            className={`${getLinkClass(
+              "/about",
+              currentPath
+            )} mr-9 text-secondary hover:text-secondary active:text-secondary`}
           >
             About
           </Link>
-          {/* <Link
-            href="/services"
-            className="mr-9 text-white hover:text-secondary"
-          >
-            Services
-          </Link> */}
           <Link
             href="/contact"
-            className="mr-0 text-white hover:text-secondary"
+            className={`${getLinkClass(
+              "/contact",
+              currentPath
+            )} mr-9 text-secondary hover:text-secondary active:text-secondary`}
           >
             Contact
           </Link>
